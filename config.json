@@ -1,0 +1,44 @@
+{
+  "name": {
+    "zh-cn": "PS4手柄",
+    "en": "PS4 handle"
+  },
+  "description": {
+    "zh-cn": "PS4手柄连接，可用于手柄控制CoCube",
+    "en": "PS4 Controller Module"
+  },
+  "author": "CoCube",
+  "email": "sparklehjk@sjtu.edu.cn",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "ps4-controller",
+  "version": "0.0.1",
+  "platform": [
+    "win",
+    "mac",
+    "web"
+  ],
+  "asset": {
+    "arduinoC": {
+      "dir": "arduinoC/",
+      "version": "0.0.1",
+      "board": [
+        "firebeetleesp32",
+        "esp32"
+      ],
+      "main": "main.ts",
+      "files": [
+        "_images/icon.svg",
+        "_locales/zh-cn.json",
+        "_menus/arduino.json",
+        "_menus/arduinonano.json",
+        "_menus/esp32.json",
+        "_menus/leonardo.json",
+        "_menus/mega2560.json",
+        "_menus/microbit.json",
+        "main.ts",
+        "libraries/PS4-esp32.zip"
+      ]
+    }
+  }
+}
