@@ -107,12 +107,12 @@ namespace oled12864 {
         if ( PS4.event.analog_move.stick.lx ) {
             Serial.print("Left Stick x at ");
             Serial.println(PS4.data.analog.stick.lx, DEC);
-            leftX = PS4.data.analog.stick.lx;
+            mind_n_leftX = PS4.data.analog.stick.lx;
         }
         if ( PS4.event.analog_move.stick.ly ) {
             Serial.print("Left Stick y at ");
             Serial.println(PS4.data.analog.stick.ly, DEC);
-            leftY = PS4.data.analog.stick.ly;
+            mind_n_leftY = PS4.data.analog.stick.ly;
         }
         if ( PS4.event.analog_move.stick.rx ) {
             Serial.print("Right Stick x at ");
