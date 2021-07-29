@@ -121,6 +121,7 @@ namespace oled12864 {
         if ( PS4.event.analog_move.stick.ry ) {
             Serial.print("Right Stick y at ");
             Serial.println(PS4.data.analog.stick.ry, DEC);
+            mind_n_rightY = PS4.data.analog.stick.ry;
         }
   
        if (PS4.data.status.charging)
